@@ -1,0 +1,73 @@
+
+/************/
+/****主体****/
+.cart_top img{
+	width: 60px;
+}
+
+.cart_top{
+	height: 25px;
+	line-height: 25px;
+	background-image: linear-gradient(to bottom,#FFF0F5,#FF7F50 80%,#D2691E);
+	padding: 8px;
+	color: #eee;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow:0 1px 1px rgba(0,0,0,0.8);
+	border-bottom: 1px solid #ff7f50;
+	border-radius: 5px 5px 0 0;
+}
+
+.cart_fl{
+	display: inline-block;
+	font-size: 14px;
+}
+
+.cart_fr{
+	float: right;
+}
+
+/****购物车物品列表样式****/
+.cart_item{
+	line-height: 25px;
+	padding: 10px 10px 10px 15px;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom,#ffc0cb,#fff0f5);
+	overflow: hidden;
+}
+
+.pic{
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.des{
+	float: left;
+	color: #eee;
+	text-shadow:0 1px 1px rgba(0,0,0,0.8);
+}
+
+.price{
+	float: right;
+	color: #eee;
+	text-shadow:0 1px 1px rgba(0,0,0,0.8);
+}
+
+/****购物车总计样式****/
+.sum{
+	line-height: 32px;
+	padding: 10px 10px 10px 15px;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom,#d3d3d3,#e0ffff);
+}
+
+.cart_button{
+	float: right;
+	line-height: 29px;
+	padding: 0 25px;
+	color: white;
+	border-radius: 4px;
+	background-image: linear-gradient(to bottom,#b0c4de,#87cefa);
+}
+
